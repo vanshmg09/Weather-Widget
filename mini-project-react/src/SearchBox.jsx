@@ -15,6 +15,7 @@ export default function SearchBox() {
         // console.log(jsonRespone);
         
         let result = {
+            city: city,
             temp : jsonRespone.main.temp,
             tempMin : jsonRespone.main.temp_min,
             tempMax : jsonRespone.main.temp_max,
